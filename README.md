@@ -10,7 +10,7 @@ React native navigation drawer , where drawer menu is common in all screen
 5. react-native link
 
 # Note: In android the drawer not working on swipe,add below code in your MainActivity.java
-        
+  ```      
   @Override
   protected ReactActivityDelegate createReactActivityDelegate() {
     return new ReactActivityDelegate(this, getMainComponentName()) {
@@ -20,7 +20,7 @@ React native navigation drawer , where drawer menu is common in all screen
       }
     };
   }
-  
+  ```
   6. npm i react-native-vector-icons - for menu drawer icon
   
   # Run To Run the React Native App
